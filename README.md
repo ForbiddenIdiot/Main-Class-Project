@@ -33,12 +33,13 @@ Angel Molina
 https://github.com/ForbiddenIdiot/Main-Class-Project/blob/master/LICENSE
 
 ## Acknowledgments
-Source code for HelloWord program was obtained from 
+Source code for HelloWord program was obtained from http://www.java2s.com/Code/Java/JavaFX/AddTabtoTabPane.htm
 
 ## History
-# * 9/24/19 
-    * 3:27 PM Project created and uploaded to GitHub
-    * 3:52 PM Updated code; added TabView to Main.java
+# 9/24/19 
+   * 3:27 PM Project created and uploaded to GitHub
+# 9/25/19
+   * 3:56 PM Added TabView
 
 ## Key Programming Concepts Utilized
 This program demonstrates the use of JavaFx as an extension of Java to create a form with a button and to use that form to print text to the console.
