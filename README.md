@@ -41,6 +41,8 @@ Source code for HelloWord program was obtained from http://www.java2s.com/Code/J
 # 9/25/19
    * 3:56 PM Added TabView
    * 10:37 PM Installed FindBugs
+# 9/26/19
+  * 10:23 PM Installed and used CheckStyle
 
 ## Key Programming Concepts Utilized
 This program demonstrates the use of JavaFx as an extension of Java to create a form with a button and to use that form to print text to the console.
