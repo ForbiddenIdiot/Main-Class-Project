@@ -2,23 +2,23 @@
 This program makes it easier to record products that are made, as well as add to the product line.
 
 ## Demonstration
-[Issue 2](https://giphy.com/gifs/h4y0WxRYuo236sEmra)
+[Issue 1](https://media.giphy.com/media/Y0Obiq3heUZeFChlNh/giphy.gif)
+[Issue 2](https://media.giphy.com/media/h4y0WxRYuo236sEmra/giphy.gif)
+[Issue 3](https://media.giphy.com/media/lN3m1iUxIQHpZyeXWR/giphy.gif)
 
 ## Documentation
-[JavaDoc]()
+[JavaDoc](https://github.com/ForbiddenIdiot/Main-Class-Project/blob/JavaDoc/index.html)
 
 ## Diagrams
-![Alt text]() 
+![Diagram for Sprint 2](https://raw.githubusercontent.com/ForbiddenIdiot/Main-Class-Project/master/Class%20Project%20Diagram%20Sprint%202.png?token=ACDHGEWDNWZ3EXKO6MOKF5K5W53VU) 
 
 ## Getting Started
-Instructions to get a copy of the project up and running on someone's local machine for development and testing purposes. 
-Note for real project: You want to be able to share your project and enable collaboration. 
-Note for school project: You want a potential client or hirer to be able to run your program.
+ Go to https://github.com/ForbiddenIdiot/Main-Class-Project and download all files. You need an IDE such as IntelliJ to run this program.
 
 ## Built With
 IntelliJ w/ JavaFX
 Github
-Resources used
+H2 Database
 
 Note for school project: Every section is an opportunity to make an impression. You could briefly add what you know about the IDE and describe your development skills.
 ## Contributing
