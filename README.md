@@ -10,7 +10,7 @@ This program makes it easier to record products that are made, as well as add to
 [JavaDoc](https://github.com/ForbiddenIdiot/Main-Class-Project/blob/master/Class%20Project%20Diagram%20Sprint%202.png?raw=true)
 
 ## Diagrams
-![Diagram for Sprint 2](https://raw.githubusercontent.com/ForbiddenIdiot/Main-Class-Project/master/Class%20Project%20Diagram%20Sprint%202.png?token=ACDHGEWDNWZ3EXKO6MOKF5K5W53VU) 
+[Diagram for Sprint 2](https://raw.githubusercontent.com/ForbiddenIdiot/Main-Class-Project/master/Class%20Project%20Diagram%20Sprint%202.png?token=ACDHGEWDNWZ3EXKO6MOKF5K5W53VU) 
 
 ## Getting Started
  Go to https://github.com/ForbiddenIdiot/Main-Class-Project and download all files. You need an IDE such as IntelliJ to run this program.
