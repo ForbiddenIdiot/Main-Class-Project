@@ -2,9 +2,9 @@
 This program makes it easier to record products that are made, as well as add to the product line.
 
 ## Demonstration
-[Issue 1](https://media.giphy.com/media/Y0Obiq3heUZeFChlNh/giphy.gif)
-[Issue 2](https://media.giphy.com/media/h4y0WxRYuo236sEmra/giphy.gif)
-[Issue 3](https://media.giphy.com/media/lN3m1iUxIQHpZyeXWR/giphy.gif)
+* [Issue 1](https://media.giphy.com/media/Y0Obiq3heUZeFChlNh/giphy.gif)
+* [Issue 2](https://media.giphy.com/media/h4y0WxRYuo236sEmra/giphy.gif)
+* [Issue 3](https://media.giphy.com/media/lN3m1iUxIQHpZyeXWR/giphy.gif)
 
 ## Documentation
 [JavaDoc](https://github.com/ForbiddenIdiot/Main-Class-Project/blob/JavaDoc/index.html)
@@ -22,9 +22,8 @@ H2 Database
 
 Note for school project: Every section is an opportunity to make an impression. You could briefly add what you know about the IDE and describe your development skills.
 ## Contributing
-This section is more important for real projects but is good to include in school projects. 
-One of the main purposes of GitHub and similar services is to provide a means for project collaboration. 
-Tell someone how they can contribute to this project.
+You may contribute to this project by uploading new files or editing existing ones.
+Please contact the author at admolina2763@eagle.fgcu.edu before making any changes to the project.
 
 ## Author
 Angel Molina
