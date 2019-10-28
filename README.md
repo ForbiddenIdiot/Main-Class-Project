@@ -58,4 +58,4 @@ Some source code for Production class is used from https://www.mkyong.com/java/j
   * 8:53 PM Created Production Class
 
 ## Key Programming Concepts Utilized
-This program demonstrates the use of JavaFx as an extension of Java to create a form with a button and to use that form to print text to the console.
+This program demonstrates the use of JavaFx as an extension of Java. It allows the user to enter the quanity of a product and record how many units of a product were manufactured, as well as the date and time of manufacture. This information is stored into a SQL database.
