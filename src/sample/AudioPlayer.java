@@ -5,8 +5,7 @@ public class AudioPlayer extends Product implements MultimediaControl{
 		private String mediaType;
 
 	public AudioPlayer(String name, String manufacturer, String audioSpecification) {
-		super(name);
-		super.setManufacturer(manufacturer);
+		super(name, manufacturer, sample.ItemType.AU);
 		this.audioSpecification = audioSpecification;
 	} // end constructor
 
@@ -25,8 +24,7 @@ public class AudioPlayer extends Product implements MultimediaControl{
 		}
 
 		public String toString() {
-			return super.toString() + "\nAudio Spec: " + audioSpecification
-				+ "\nMedia Type: " + mediaType;
+			return super.toString() + "\nAudio Spec: " + audioSpecification;
 		} // end method toString
 
 

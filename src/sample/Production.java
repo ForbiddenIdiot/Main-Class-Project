@@ -21,32 +21,47 @@ public class Production {
 
 	public Production() throws SQLException {
 
-			con = DriverManager.getConnection("jdbc:h2:C:/Users/dell main/IdeaProjects/Main-Class-Project/lib");
+			//con = DriverManager.getConnection("jdbc:h2:C:/Users/dell main/IdeaProjects/Main-Class-Project/lib");
+		con = DriverManager.getConnection("jdbc:h2:C:/Windows.old.000/Users/dell main/IdeaProjects/Main-Class-Project/lib");
 
 			Scanner scanner = new Scanner(System.in);
 
-			/* Below code is used ONLY for testing temporary Widget class
+			// Below code is used ONLY for testing temporary Widget class
 			System.out.println("Please enter a quantity: ");
-			quantity = scanner.nextInt();
+			int quantity = scanner.nextInt();
 			DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 			Date date = new Date();
 			manufacturedOn = dateFormat.format(date);
 			System.out.println("Manufactured on " + manufacturedOn);
-			*/
+
 	} // end constructor
 
 		public void createTable() {
-				try {
+			// create production table
+			try {
 						Statement stmt = con.createStatement();
 						// DROP TABLE query is for resetting Production Table each time the program runs
 						stmt.execute("DROP TABLE production;");
 						// SQL code to create new table
 						stmt.execute("CREATE TABLE IF NOT EXISTS production(" +
 							"id int primary key, quantity int, manufacturedOn text);" );
-				} catch (SQLException e) {
+			} catch (SQLException e) {
 						sqlExceptionHandler(e);
-				}
-		} // end method addProduct
+			}
+
+			// create employee table
+			try {
+				Statement stmt = con.createStatement();
+				// DROP TABLE query is for resetting Production Table each time the program runs
+				stmt.execute("DROP TABLE employee;");
+				// SQL code to create new table
+				stmt.execute("CREATE TABLE IF NOT EXISTS employee(" +
+						"id int primary key, quantity int, manufacturedOn text);" );
+			} catch (SQLException e) {
+				sqlExceptionHandler(e);
+			}
+
+		} // end method createTable
 
 		public void insertProd(String iQuery, String[] insertValues) throws SQLException {
 				PreparedStatement pstmt = con.prepareStatement(iQuery);

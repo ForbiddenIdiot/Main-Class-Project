@@ -14,17 +14,17 @@ import java.sql.*;
 public class Widget extends Product {
 		private Connection con = null;
 
-		public Widget(String name)  throws SQLException { // constructor
-				super(name);
-				con = DriverManager.getConnection("jdbc:h2:C:/Users/dell main/IdeaProjects/Main-Class-Project/lib");
+		public Widget(String name, String manufacturer, Enum ItemType)  throws SQLException { // constructor
+				super(name, manufacturer, ItemType);
+			con = DriverManager.getConnection("jdbc:h2:C:/Windows.old.000/Users/dell main/IdeaProjects/Main-Class-Project/lib");
 		} // end constructor
 
 		/* TEST- Imported from ProductManager */
 
-		public void createEmployee() {
+		public void createWidget() {
 				try {
 						Statement stmt = con.createStatement();
-						stmt.execute("CREATE TABLE IF NOT EXISTS employee(" +
+						stmt.execute("CREATE TABLE IF NOT EXISTS widgets(" +
 							"uid int primary key," +
 							"name varchar(255));" );
 				} catch (SQLException e) {
@@ -44,7 +44,7 @@ public class Widget extends Product {
 
 				try {
 						Statement stmt = con.createStatement();
-						rs = stmt.executeQuery("SELECT * FROM employee;");
+						rs = stmt.executeQuery("SELECT * FROM widgets;");
 
 						while(rs.next()) {
 								System.out.printf("uID = %d%n", rs.getInt("uid"));
@@ -69,25 +69,4 @@ public class Widget extends Product {
 				System.out.println("Standard Failure: " + error.getMessage());
 		} // end method sqlExceptionHandler
 
-		/********************* // END TEST
-		 */
-
-	/*	ProductManager pm = new ProductManager();
-        pm.createEmployee();
-        pm.selectAll();
-
-		// Finally let's insert some data
-		// Will use stringBuilder or similar in video to build/map this
-		// Main point for both: USE PLACEHOLDERS
-		String insertQuery = "INSERT INTO EMPLOYEE " +
-			"(uid, name)" +
-			" VALUES (?, ?)";
-		String[] itemp = {"370", "help me"};
-
-        pm.insertProd(insertQuery, itemp);
-        pm.selectAll();
-
-
-		// And close our connection at end
-        pm.closeCon();*/
 }
