@@ -12,7 +12,7 @@ This program makes it easier to record products that are made, as well as add to
 * [Issue 10](https://media.giphy.com/media/PjgX5bL8z6x3wd1NOM/giphy.gif)
 
 ## Documentation
-[JavaDoc](https://github.com/ForbiddenIdiot/Main-Class-Project/blob/master/Class%20Project%20Diagram%20Sprint%202.png?raw=true)
+[JavaDoc](https://github.com/ForbiddenIdiot/Main-Class-Project/tree/JavaDoc)
 
 ## Diagrams
 ![Diagram for Sprint 2](https://github.com/ForbiddenIdiot/Main-Class-Project/blob/master/Class%20Project%20Diagram%20Sprint%202.png) 
